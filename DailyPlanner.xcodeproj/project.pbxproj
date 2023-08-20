@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43977442A7AB80500D772A3 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43977432A7AB80500D772A3 /* Category.swift */; };
+		A43977472A7AB82B00D772A3 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A43977462A7AB82B00D772A3 /* Realm */; };
+		A43977492A7AB82B00D772A3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A43977482A7AB82B00D772A3 /* RealmSwift */; };
 		A454B9642A759E3800E6AE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454B9632A759E3800E6AE25 /* AppDelegate.swift */; };
 		A454B9662A759E3800E6AE25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454B9652A759E3800E6AE25 /* SceneDelegate.swift */; };
-		A454B9682A759E3800E6AE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454B9672A759E3800E6AE25 /* ViewController.swift */; };
-		A454B96B2A759E3800E6AE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A454B9692A759E3800E6AE25 /* Main.storyboard */; };
+		A454B9682A759E3800E6AE25 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A454B9672A759E3800E6AE25 /* MainViewController.swift */; };
 		A454B96D2A759E3900E6AE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A454B96C2A759E3900E6AE25 /* Assets.xcassets */; };
 		A454B9702A759E3900E6AE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A454B96E2A759E3900E6AE25 /* LaunchScreen.storyboard */; };
+		A46EFDE32A75C48D003F8738 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46EFDE22A75C48D003F8738 /* MainTableViewCell.swift */; };
+		A46EFDEA2A75C812003F8738 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A46EFDE92A75C812003F8738 /* SnapKit */; };
+		A4BEC7542A8D42C500DBACB6 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BEC7532A8D42C500DBACB6 /* ItemViewController.swift */; };
+		A4BEC7562A8D430100DBACB6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BEC7552A8D430100DBACB6 /* Item.swift */; };
+		A4BEC7582A8D468500DBACB6 /* ItemTablewViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BEC7572A8D468500DBACB6 /* ItemTablewViewCell.swift */; };
+		A4F17A582A91347800F40FCB /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F17A572A91347800F40FCB /* EmptyStateView.swift */; };
+		A4F17A5A2A9151ED00F40FCB /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F17A592A9151ED00F40FCB /* Button.swift */; };
+		A4F17A5C2A9153C100F40FCB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F17A5B2A9153C100F40FCB /* View.swift */; };
+		A4F17A5E2A91556B00F40FCB /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F17A5D2A91556B00F40FCB /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A43977432A7AB80500D772A3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		A454B9602A759E3800E6AE25 /* DailyPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A454B9632A759E3800E6AE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A454B9652A759E3800E6AE25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A454B9672A759E3800E6AE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A454B96A2A759E3800E6AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A454B9672A759E3800E6AE25 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A454B96C2A759E3900E6AE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A454B96F2A759E3900E6AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A454B9712A759E3900E6AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46EFDE22A75C48D003F8738 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		A4BEC7532A8D42C500DBACB6 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		A4BEC7552A8D430100DBACB6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A4BEC7572A8D468500DBACB6 /* ItemTablewViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTablewViewCell.swift; sourceTree = "<group>"; };
+		A4F17A572A91347800F40FCB /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		A4F17A592A9151ED00F40FCB /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		A4F17A5B2A9153C100F40FCB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		A4F17A5D2A91556B00F40FCB /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +50,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43977492A7AB82B00D772A3 /* RealmSwift in Frameworks */,
+				A43977472A7AB82B00D772A3 /* Realm in Frameworks */,
+				A46EFDEA2A75C812003F8738 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A43977422A7AB7F600D772A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A43977432A7AB80500D772A3 /* Category.swift */,
+				A4BEC7552A8D430100DBACB6 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A454B9572A759E3800E6AE25 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +87,78 @@
 		A454B9622A759E3800E6AE25 /* DailyPlanner */ = {
 			isa = PBXGroup;
 			children = (
-				A454B9632A759E3800E6AE25 /* AppDelegate.swift */,
-				A454B9652A759E3800E6AE25 /* SceneDelegate.swift */,
-				A454B9672A759E3800E6AE25 /* ViewController.swift */,
-				A454B9692A759E3800E6AE25 /* Main.storyboard */,
-				A454B96C2A759E3900E6AE25 /* Assets.xcassets */,
+				A46EFDE72A75C4E8003F8738 /* App */,
+				A4F17A542A9131E800F40FCB /* Custom Views */,
+				A43977422A7AB7F600D772A3 /* Models */,
+				A46EFDE42A75C492003F8738 /* Controllers */,
 				A454B96E2A759E3900E6AE25 /* LaunchScreen.storyboard */,
 				A454B9712A759E3900E6AE25 /* Info.plist */,
 			);
 			path = DailyPlanner;
+			sourceTree = "<group>";
+		};
+		A46EFDE42A75C492003F8738 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4BEC7512A8D429200DBACB6 /* Items */,
+				A46EFDE52A75C4C9003F8738 /* Main */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A46EFDE52A75C4C9003F8738 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A46EFDE62A75C4D8003F8738 /* Cell */,
+				A454B9672A759E3800E6AE25 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A46EFDE62A75C4D8003F8738 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A46EFDE22A75C48D003F8738 /* MainTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A46EFDE72A75C4E8003F8738 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A454B9632A759E3800E6AE25 /* AppDelegate.swift */,
+				A454B9652A759E3800E6AE25 /* SceneDelegate.swift */,
+				A454B96C2A759E3900E6AE25 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A4BEC7512A8D429200DBACB6 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				A4BEC7522A8D42AB00DBACB6 /* Cell */,
+				A4BEC7532A8D42C500DBACB6 /* ItemViewController.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		A4BEC7522A8D42AB00DBACB6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A4BEC7572A8D468500DBACB6 /* ItemTablewViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A4F17A542A9131E800F40FCB /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4F17A572A91347800F40FCB /* EmptyStateView.swift */,
+				A4F17A592A9151ED00F40FCB /* Button.swift */,
+				A4F17A5B2A9153C100F40FCB /* View.swift */,
+				A4F17A5D2A91556B00F40FCB /* Label.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +177,11 @@
 			dependencies = (
 			);
 			name = DailyPlanner;
+			packageProductDependencies = (
+				A46EFDE92A75C812003F8738 /* SnapKit */,
+				A43977462A7AB82B00D772A3 /* Realm */,
+				A43977482A7AB82B00D772A3 /* RealmSwift */,
+			);
 			productName = DailyPlanner;
 			productReference = A454B9602A759E3800E6AE25 /* DailyPlanner.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +210,10 @@
 				Base,
 			);
 			mainGroup = A454B9572A759E3800E6AE25;
+			packageReferences = (
+				A46EFDE82A75C812003F8738 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A43977452A7AB82B00D772A3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = A454B9612A759E3800E6AE25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +230,6 @@
 			files = (
 				A454B9702A759E3900E6AE25 /* LaunchScreen.storyboard in Resources */,
 				A454B96D2A759E3900E6AE25 /* Assets.xcassets in Resources */,
-				A454B96B2A759E3800E6AE25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +240,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A454B9682A759E3800E6AE25 /* ViewController.swift in Sources */,
+				A4F17A582A91347800F40FCB /* EmptyStateView.swift in Sources */,
+				A454B9682A759E3800E6AE25 /* MainViewController.swift in Sources */,
+				A4F17A5E2A91556B00F40FCB /* Label.swift in Sources */,
+				A43977442A7AB80500D772A3 /* Category.swift in Sources */,
 				A454B9642A759E3800E6AE25 /* AppDelegate.swift in Sources */,
+				A46EFDE32A75C48D003F8738 /* MainTableViewCell.swift in Sources */,
+				A4F17A5A2A9151ED00F40FCB /* Button.swift in Sources */,
+				A4BEC7582A8D468500DBACB6 /* ItemTablewViewCell.swift in Sources */,
+				A4BEC7562A8D430100DBACB6 /* Item.swift in Sources */,
 				A454B9662A759E3800E6AE25 /* SceneDelegate.swift in Sources */,
+				A4F17A5C2A9153C100F40FCB /* View.swift in Sources */,
+				A4BEC7542A8D42C500DBACB6 /* ItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A454B9692A759E3800E6AE25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A454B96A2A759E3800E6AE25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A454B96E2A759E3900E6AE25 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +394,6 @@
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +420,6 @@
 				INFOPLIST_FILE = DailyPlanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +457,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A43977452A7AB82B00D772A3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A46EFDE82A75C812003F8738 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A43977462A7AB82B00D772A3 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43977452A7AB82B00D772A3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		A43977482A7AB82B00D772A3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A43977452A7AB82B00D772A3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		A46EFDE92A75C812003F8738 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A46EFDE82A75C812003F8738 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A454B9582A759E3800E6AE25 /* Project object */;
 }
