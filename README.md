@@ -4,8 +4,11 @@ Stay on top of your tasks and accomplish more with the power of DailyPlanner, a 
 Key Features:
 
 📝 Smart Task Creation: Effortlessly create lists of tasks, ensuring no important detail is left behind. Plan your day, week, or month with ease, categorizing tasks as per your preferences.
+
 📌 Nested Subtasks: Elevate your task management game by adding subtasks to any task. Whether it's a grocery shopping list or a project milestone, you can now break tasks down into manageable sub-tasks for clarity and focus.
+
 ✅ Check and Delete: Celebrate your achievements by checking off completed tasks with a satisfying tap. And for tasks you no longer need, bid them farewell with a simple delete action, decluttering your lists.
+
 🛠️ Programmatic Excellence: DailyPlanner is a fully programmatic application, designed and developed with Swift, SnapKit, and Realm. This means a smooth, optimized user experience that adapts seamlessly to various devices.
 
 ## Technologies
