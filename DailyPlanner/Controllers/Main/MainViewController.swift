@@ -121,7 +121,6 @@ extension MainViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: MainTableViewCell.reuseID, for: indexPath) as! MainTableViewCell
         
-        
         if let category = categories?[indexPath.row] {
             cell.categoryName.text = category.name
             emptyView.isHidden = true
