@@ -16,4 +16,7 @@ MVVM Architecture Pattern, UIKit, Programmatic UI, Reusable UI components, Data 
 
 ### App
 
-https://github.com/oliwiaprocyk/DailyPlanner/assets/124703016/e2094efa-27f3-4032-a367-99db1dcaf294
+https://github.com/oliwiaprocyk/DailyPlanner/assets/124703016/3dbf6d54-2d7d-4979-bc14-2268ede1306a
+
+
+
