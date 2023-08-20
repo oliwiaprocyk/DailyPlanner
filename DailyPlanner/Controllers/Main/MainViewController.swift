@@ -120,6 +120,7 @@ extension MainViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: MainTableViewCell.reuseID, for: indexPath) as! MainTableViewCell
+        cell.selectionStyle = .none
         
         if let category = categories?[indexPath.row] {
             cell.categoryName.text = category.name

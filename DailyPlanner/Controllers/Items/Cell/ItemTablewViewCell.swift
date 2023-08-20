@@ -32,8 +32,9 @@ final class ItemTableViewCell: UITableViewCell {
         contentView.addSubview(backView)
         backView.addSubview(itemName)
         backView.snp.makeConstraints { make in
-            make.right.left.bottom.equalToSuperview()
-            make.top.equalToSuperview().offset(5)
+            make.right.left.equalToSuperview()
+            make.top.equalToSuperview().offset(2)
+            make.bottom.equalToSuperview().offset(-2)
         }
         
         itemName.snp.makeConstraints { make in
