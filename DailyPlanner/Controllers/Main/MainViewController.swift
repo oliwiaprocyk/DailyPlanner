@@ -130,8 +130,6 @@ extension MainViewController: UITableViewDataSource {
             emptyView.isHidden = true
         }
         showEmptyState()
-        
-        cell.categoryName.text = categories?[indexPath.row].name ?? "No categories added yet"
         return cell
     }
 }
